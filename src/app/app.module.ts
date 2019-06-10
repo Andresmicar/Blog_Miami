@@ -10,7 +10,7 @@ import {Routes, RouterModule} from '@angular/router';
 
 
 const misRutas: Routes = [
-  {'path':'', 'component': HomeComponent},
+{'path':'', 'component': HomeComponent},
 {'path':'home', 'component': HomeComponent},
 {'path':'post/:id','component': DetailComponent},
 {'path':'*', 'component': HomeComponent}
